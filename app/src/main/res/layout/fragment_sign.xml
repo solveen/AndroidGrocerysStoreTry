@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    tools:context=".SignFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Register"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:id="@+id/etUsername"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:id="@+id/etCPassword"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btnSignup"
+        />
+
+</LinearLayout>
